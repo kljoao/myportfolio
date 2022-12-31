@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  background: url(/imagens/30.jpg) no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  gap: 800px;
+}
+
+.logo-header {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.logo-detalhe {
+  color: #a0008b;
+}
+
+.menu-link {
+  font-family: 'Roboto';
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.menu-link:hover {
+  color: #b39f9f;
+}
+
+.first-sec {
+  margin-left: 200px;
+}
+
+.main-textos {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.main-textos h3 {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.main-textos h1 {
+  margin-top: -10px;
+  font-size: 5rem;
+  color: #a0008b;
+  font-family: 'Roboto';
+}
+
+.main-textos p {
+  margin-top: -50px;
+  color: #ffffff;
+}
