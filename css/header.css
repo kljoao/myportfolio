@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 800px;
+  flex-wrap: wrap;
+  background: rgba(0, 0, 0);
+}
+
+.logo-header {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+.logo-detalhe {
+  color: #a0008b;
+}
+
+.menu-link {
+  font-family: 'Roboto';
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.menu-link:hover {
+  color: #b39f9f;
+}
+
+@media(max-width: 1024px) {
+  .header {
+    gap: 500px;
+  }
+}
+
+@media(max-width: 768px) {
+  .header {
+    gap: 260px;
+  }
+}
+
+@media(max-width: 425px) {
+  .header {
+    margin: 0px;
+    gap: 0px;
+  }
+}
+
+@media(max-width: 320px) {
+  .header {
+    text-align: center;
+  }
+}
