@@ -1,109 +1,101 @@
 .header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 800px;
-  flex-wrap: wrap;
-  background: rgba(0, 0, 0);
+  justify-content: space-between;
+  background: rgba(27, 26, 26, 0.35);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
-.logo-header {
+.logo {
   font-family: 'Roboto';
   color: #ffffff;
+  font-size: 1.7rem;
+  margin: 0px 50px;
 }
 
 .logo-detalhe {
   color: #a0008b;
 }
 
-.menu-link {
-  font-family: 'Roboto';
-  padding: 10px;
-  transition: 0.3s;
+#menu {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+  margin: 0px 50px;
 }
 
-.menu-link:hover {
-  color: #b39f9f;
+#menu a {
+  font-size: 1rem;
+  display: block;
+  padding: .5rem;
+  font-family: 'Roboto';
 }
 
 #btn-mobile {
-  color: white;
   display: none;
+  color: #ffffff;
 }
 
-
-@media(min-width: 1292px) and (max-width: 1440px) {
-  .header {
-    gap: 800px;
-  }
+#btn-close {
+  display: none;
+  color: #ffffff;
 }
-
-@media(max-width: 1300px) {
-  .header {
-    gap: 700px;
-  }
-}
-
-@media(max-width: 1183px) {
-  .header {
-    gap: 600px;
-  }
-}
-
-@media(max-width: 1077px) {
-  .header {
-    gap: 500px;
-  }
-}
-
-@media(max-width: 983px) {
-  .header {
-    gap: 400px;
-  }
-}
-
-@media(max-width: 863px) {
-  .header {
-    gap: 300px;
-  }
-}
-
-@media(max-width: 867px) {
-  .header {
-    gap: 250px;
-  }
-}
-
-@media(max-width: 718px) {
-  .header {
-    gap: 100px;
-  }
-}
-
-
-
-
-
 
 @media(max-width: 600px) {
-  .header {
-    gap: 0px;
-    flex-wrap: nowrap;
-  }
-
-  #menus {
-    position: absolute;
-    width: 100%;
-    top: 90px;
-  }
-
   #btn-mobile {
     display: block;
   }
 
-  #menu.active #menus {
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+  }
+
+  #nav.active #btn-mobile {
+    display: none;
+  }
+
+  #nav.active #btn-close {
     display: flex;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .logo {
+    margin: 0px;
+  }
+
+  #menu {
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    height: 0px;
+    transition: 0.6s;
+    z-index: 1000px;
+    visibility: hidden;
+    overflow-y: auto;
+    margin: 0px;
+  }
+
+  #menu a {
+    padding: 0.5rem 0;
+    margin: 0 0.2rem;
+    border-bottom: 1px solid #131213;
+  }
+
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
   }
 }
-
-/* LEMBRAR MENU HAMBURGUER */

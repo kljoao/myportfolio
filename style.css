@@ -5,14 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
 
 
-body {
+body,
+ul {
   margin: 0px;
   padding: 0px;
-  background-color: rgb(42, 40, 40);
+}
+
+body {
+  background-color: black;
 }
 
 a {
   text-decoration: none;
   color: #ffffff;
-  list-style: none;
 }
