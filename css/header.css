@@ -26,27 +26,84 @@
   color: #b39f9f;
 }
 
-@media(max-width: 1024px) {
+#btn-mobile {
+  color: white;
+  display: none;
+}
+
+
+@media(min-width: 1292px) and (max-width: 1440px) {
+  .header {
+    gap: 800px;
+  }
+}
+
+@media(max-width: 1300px) {
+  .header {
+    gap: 700px;
+  }
+}
+
+@media(max-width: 1183px) {
+  .header {
+    gap: 600px;
+  }
+}
+
+@media(max-width: 1077px) {
   .header {
     gap: 500px;
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 983px) {
   .header {
-    gap: 260px;
+    gap: 400px;
   }
 }
 
-@media(max-width: 425px) {
+@media(max-width: 863px) {
   .header {
-    margin: 0px;
+    gap: 300px;
+  }
+}
+
+@media(max-width: 867px) {
+  .header {
+    gap: 250px;
+  }
+}
+
+@media(max-width: 718px) {
+  .header {
+    gap: 100px;
+  }
+}
+
+
+
+
+
+
+@media(max-width: 600px) {
+  .header {
     gap: 0px;
+    flex-wrap: nowrap;
+  }
+
+  #menus {
+    position: absolute;
+    width: 100%;
+    top: 90px;
+  }
+
+  #btn-mobile {
+    display: block;
+  }
+
+  #menu.active #menus {
+    display: flex;
   }
 }
 
-@media(max-width: 320px) {
-  .header {
-    text-align: center;
-  }
-}
+/* LEMBRAR MENU HAMBURGUER */
