@@ -1,5 +1,7 @@
 /* CSS IMPORT */
 @import url(/css/header.css);
+@import url(/css/main.css);
+@import url(/css/projetos.css);
 /* FONTES */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
@@ -12,7 +14,11 @@ ul {
 }
 
 body {
-  background-color: black;
+  background-color: #000000;
+}
+
+li {
+  list-style-type: none;
 }
 
 a {

@@ -8,4 +8,3 @@ function toggleMenu() {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnCloseMobile.addEventListener('click', toggleMenu);
-
