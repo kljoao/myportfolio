@@ -8,3 +8,12 @@ function toggleMenu() {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnCloseMobile.addEventListener('click', toggleMenu);
+
+
+let sr = ScrollReveal({
+  duration: 2500,
+  distance: "60px",
+});
+
+sr.reveal(".div-main", { delay: 600 });
+sr.reveal(".div-logo-img", { origin: "top", delay: 600 });
