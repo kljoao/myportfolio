@@ -17,3 +17,7 @@ let sr = ScrollReveal({
 
 sr.reveal(".div-main", { delay: 600 });
 sr.reveal(".div-logo-img", { origin: "top", delay: 600 });
+sr.reveal(".sobre-header", { origin: "left", delay: 600 });
+sr.reveal(".sobre-texto", { origin: "top", delay: 1200 });
+sr.reveal(".info-container", { origin: "top", delay: 1200 });
+sr.reveal(".linguagem-show", { origin: "top", delay: 600 });
