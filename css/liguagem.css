@@ -36,14 +36,43 @@
   border-top: 2px solid #151414;
 }
 
+.allback {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #151414;
+}
+
+.html {
+  position: relative;
+}
+
+.comentario {
+  color: #ffffff;
+  top: -100px;
+  display: none;
+  font-family: 'Roboto';
+  position: relative;
+  transition: 0.6s;
+}
+
+
+.html:hover {
+  color: #151414;
+  opacity: 50%;
+}
+
+.comentario:hover {
+  display: block;
+}
+
 .linguagem-div img {
   margin: auto;
   width: 100px;
   transition: 0.6s;
 }
 
-.linguagem-div img:hover {
-  width: 120px;
+.detail {
+  color: #fea100;
 }
 
 @media(max-width: 800px) {
