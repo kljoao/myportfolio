@@ -8,10 +8,19 @@
   text-align: center;
 }
 
+.seta {
+  position: absolute;
+  top: 590px;
+  width: 1000px;
+  right: 400px;
+  z-index: 1000;
+}
+
 .sobre-header {
   font-size: 5rem;
   font-family: 'Roboto';
   color: #ffffff;
+  position: relative;
 }
 
 .sobre-texto {

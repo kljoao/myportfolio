@@ -22,3 +22,5 @@ sr.reveal(".sobre-texto", { origin: "top", delay: 1200 });
 sr.reveal(".info-container", { origin: "top", delay: 1200 });
 sr.reveal(".linguagem-show", { origin: "top", delay: 600 });
 sr.reveal(".linguagem-div", { origin: "bottom", delay: 600 });
+sr.reveal(".projeto-titulo", { origin: "left", delay: 600 });
+sr.reveal(".projeto-div", { origin: "right", delay: 600 });

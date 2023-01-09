@@ -67,7 +67,7 @@
   border-top: 2px solid #151414;
 }
 
-.efeito2{
+.efeito2 {
   border-left: 2px solid #151414;
 }
 
@@ -77,58 +77,59 @@
 
 
 
-.efeito1:hover .comentario1{
+.efeito1:hover .comentario1 {
   opacity: 100%;
 }
 
-.efeito1:hover .html{
-  color: #040404;
-  opacity: 50%;
-  display: block;
-}
-.efeito1:hover .comentario1{
-    opacity: 100%;
- }
-
-.efeito1:hover .css{
+.efeito1:hover .html {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
-.efeito1:hover .js{
+.efeito1:hover .comentario1 {
+  opacity: 100%;
+}
+
+.efeito1:hover .css {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
-.efeito1:hover .java{
+.efeito1:hover .js {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
-.efeito1:hover .csharp{
+.efeito1:hover .java {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
-.efeito1:hover .git{
+.efeito1:hover .csharp {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
-
-.efeito1:hover .sql{
+.efeito1:hover .git {
   color: #040404;
   opacity: 50%;
   display: block;
 }
 
 
-.efeito1:hover .react{
+.efeito1:hover .sql {
+  color: #040404;
+  opacity: 50%;
+  display: block;
+}
+
+
+.efeito1:hover .react {
   color: #040404;
   opacity: 50%;
   display: block;
@@ -137,11 +138,11 @@
 
 /* EFEITO HOVER */
 
-.borda{
+.borda {
   border-left: 2px solid #151414;
 }
 
-.borda-top{
+.borda-top {
   border-top: 2px solid #151414;
 }
 
@@ -168,5 +169,9 @@
 
   .linguagem-div ul {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .seta {
+    display: none;
   }
 }
